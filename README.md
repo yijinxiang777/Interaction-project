@@ -13,7 +13,7 @@ Evaluating the "scale problem" under additive and multiplicative interaction whe
   
  + Generate dichotomous outcome(**Y**) based on **Py** using binomial distribution  
 
-### 2.  Calculate True multiplicative interaction and true addtion interaction based on parameters for data generation 
+### 2.  Calculate true multiplicative interaction and true addtion interaction based on parameters for data generation 
 
    ![equation](https://latex.codecogs.com/svg.image?multint_{True}&space;=&space;e^{tXM})  
    ![equation](https://latex.codecogs.com/svg.image?addint_%7BTrue%7D=e%5E%7BtXM&plus;tX&plus;tM%7D-e%5E%7BtM%7D-e%5E%7BtX%7D&plus;1)
@@ -38,7 +38,7 @@ Evaluating the "scale problem" under additive and multiplicative interaction whe
 
  + Generate dichotomous outcome(**Y**) based on **Py** using binomial distribution  
 
-### 2.  Calculate True multiplicative interaction and true addtion interaction based on parameters for data generation 
+### 2.  Calculate true multiplicative interaction and true addtion interaction based on parameters for data generation 
 
    ![equation](https://latex.codecogs.com/svg.image?addint_{True}&space;=&space;tXM)  
    ![equation](https://latex.codecogs.com/svg.image?multint_%7BTrue%7D=%5Cfrac%7B(mu&plus;tX&plus;tM&plus;tXM)mu%7D%7B(mu&plus;tX)(mu&plus;tM)%7D)
