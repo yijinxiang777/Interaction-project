@@ -24,11 +24,11 @@ generateaddint <- function(pi,mu_n,tX, tM, tXM,seed) {
   # set the value for two exposure
   set.seed(seed)
   # manipulate the boundaries to make the Py within 0 to 1
-  # make a list of n exposure-x, modifier - m, confonder - mu
+  # make a list of n exposure-x, modifier - m, confounder - mu
   x <- rbinom(n,1,pi)
   m <- rbinom(n,1,pi)
   mu <-matrix(mu_n,n,1)
-  # combine the three list and generate the probality of y-Py
+  # combine the three list and generate the probability of y-Py
   D <- data.frame(m,x,mu)
   Py <-(x*tX + m*tM + tXM*x*m +mu)
   # generate the outcome

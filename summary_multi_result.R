@@ -29,7 +29,7 @@ result_multi_final_summary <-result_multi_final%>%group_by(pi,tX, tXM)%>%
             mean_add_interaction_true = mean(addtive_interacttion_true,na.rm =TRUE),
             mean_add_interaction_estimated = mean(add_interaction_estimated,na.rm =TRUE),
             sd_add_interaction_estimated = sd(add_interaction_estimated,na.rm = TRUE),
-            mean_mult_interaction_true = mean(tXM,na.rm =TRUE),
+            mean_mult_interaction_true = mean(exp(tXM),na.rm =TRUE),
             mean_mult_interaction_estimated = mean(mult_interaction_estimated,na.rm =TRUE),
             sd_mult_interaction_estimated = sd(mult_interaction_estimated,na.rm = TRUE),
             mean_log_mult_interaction_true = mean(tXM,na.rm = TRUE),
